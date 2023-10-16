@@ -7,12 +7,12 @@
 #
 Name     : pypi-kiwisolver
 Version  : 1.4.4
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/5f/5c/272a7dd49a1914f35cd8d6d9f386defa8b047f6fbd06badd6b77b3ba24e7/kiwisolver-1.4.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5f/5c/272a7dd49a1914f35cd8d6d9f386defa8b047f6fbd06badd6b77b3ba24e7/kiwisolver-1.4.4.tar.gz
 Summary  : A fast implementation of the Cassowary constraint solver
 Group    : Development/Tools
-License  : ========================= BSD-3-Clause
+License  : BSD-3-Clause
 Requires: pypi-kiwisolver-license = %{version}-%{release}
 Requires: pypi-kiwisolver-python = %{version}-%{release}
 Requires: pypi-kiwisolver-python3 = %{version}-%{release}
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1697495004
+export SOURCE_DATE_EPOCH=1697496286
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
