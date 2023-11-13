@@ -1,5 +1,5 @@
 PKG_NAME := pypi-kiwisolver
-URL = https://files.pythonhosted.org/packages/5f/5c/272a7dd49a1914f35cd8d6d9f386defa8b047f6fbd06badd6b77b3ba24e7/kiwisolver-1.4.4.tar.gz
+URL = https://files.pythonhosted.org/packages/b9/2d/226779e405724344fc678fcc025b812587617ea1a48b9442628b688e85ea/kiwisolver-1.4.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
