@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-kiwisolver
-Version  : 1.4.6
-Release  : 48
-URL      : https://files.pythonhosted.org/packages/52/bd/e54734b47fa63b52e34bad5b60e6842628b9a47c14254c5557f2a4b37b2e/kiwisolver-1.4.6.tar.gz
-Source0  : https://files.pythonhosted.org/packages/52/bd/e54734b47fa63b52e34bad5b60e6842628b9a47c14254c5557f2a4b37b2e/kiwisolver-1.4.6.tar.gz
+Version  : 1.4.7
+Release  : 49
+URL      : https://files.pythonhosted.org/packages/85/4d/2255e1c76304cbd60b48cee302b66d1dde4468dc5b1160e4b7cb43778f2a/kiwisolver-1.4.7.tar.gz
+Source0  : https://files.pythonhosted.org/packages/85/4d/2255e1c76304cbd60b48cee302b66d1dde4468dc5b1160e4b7cb43778f2a/kiwisolver-1.4.7.tar.gz
 Summary  : A fast implementation of the Cassowary constraint solver
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -65,10 +65,10 @@ python3 components for the pypi-kiwisolver package.
 
 
 %prep
-%setup -q -n kiwisolver-1.4.6
-cd %{_builddir}/kiwisolver-1.4.6
+%setup -q -n kiwisolver-1.4.7
+cd %{_builddir}/kiwisolver-1.4.7
 pushd ..
-cp -a kiwisolver-1.4.6 buildavx2
+cp -a kiwisolver-1.4.7 buildavx2
 popd
 
 %build
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1725406140
+export SOURCE_DATE_EPOCH=1725460647
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
