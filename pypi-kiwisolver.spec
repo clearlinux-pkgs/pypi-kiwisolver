@@ -7,7 +7,7 @@
 #
 Name     : pypi-kiwisolver
 Version  : 1.4.8
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/82/59/7c91426a8ac292e1cdd53a63b6d9439abd573c875c3f92c146767dd33faf/kiwisolver-1.4.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/82/59/7c91426a8ac292e1cdd53a63b6d9439abd573c875c3f92c146767dd33faf/kiwisolver-1.4.8.tar.gz
 Summary  : A fast implementation of the Cassowary constraint solver
